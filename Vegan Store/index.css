@@ -1,0 +1,679 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+
+}
+
+#header {
+    Background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 77px;
+    align-items: center;
+    padding: 0 28px;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+.logo img {
+    Width: 40px;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+
+}
+
+.menu_item {
+    Color: black;
+    Font-weight: 600;
+    Font-size: 14px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.fa fa-caret-down {
+    content: "\f0d7";
+}
+
+.dropdown_contant {
+    width: 150px;
+    border-top: 2px solid rgb(170, 210, 54);
+    padding: 5px;
+    position: absolute;
+    right: 24px;
+    background-color: white;
+    box-shadow: 0 2px 5px #ccc;
+    display: none;
+}
+
+.dropdown_contant a {
+    text-decoration: none;
+    display: block;
+
+    padding: 2px;
+    cursor: pointer;
+    color: black;
+}
+
+.demo_dropdown {
+    position: relative;
+}
+
+.demo_dropdown:hover .dropdown_contant {
+    display: block;
+}
+
+#button {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 9px 34px;
+    border: 0;
+    border-radius: 4px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.landing {
+    flex-direction: column;
+
+    Width: 100%;
+    Height: 100vh;
+    background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png');
+    background-size: 100% 100%;
+}
+
+.main_heading {
+    width: 100%;
+    max-width: 1100px;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+    text-align: center;
+
+}
+
+.landing p {
+    width: 100%;
+
+}
+
+.main_text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.sub_heading {
+    width: 100%;
+    max-width: 1100px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #8b8b99;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.section_title {
+    Font-weight: 600;
+    Font-size: 24px;
+
+}
+
+.four_sec {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.sec_parts {
+    width: calc(25% - 96px);
+    color: white;
+    text-align: center;
+    padding: 112px 48px;
+
+}
+
+.sec_parts:hover .step_icon {
+    transform: scale(1.1);
+}
+
+#first {
+    Background-color: #5acda6;
+}
+
+#second {
+    Background-color: #91ac41;
+}
+
+#third {
+    Background-color: #e4b476;
+}
+
+#forth {
+    Background-color: #f69dad;
+}
+
+.dec {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+}
+
+.fresh_food_contaner {
+    background-color: #f7eee2;
+    text-align: center;
+    width: 100%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.heading>p {
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+
+}
+
+.heading h1 {
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.dec {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin-bottom: 55px;
+}
+
+.card_main {
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    margin: 0px auto;
+}
+
+.card {
+    width: calc(25% - 48px);
+    text-align: center;
+    padding: 24px;
+
+}
+
+.card_contant {
+    display: inline-block;
+    background-color: #e3b375;
+    border-radius: 50%;
+    padding: 40px;
+    color: white;
+    transition: all 0.3s;
+}
+
+.card_contant:hover {
+    transform: scale(1.2, 1.2);
+
+}
+
+.card h3 {
+    font-size: 24px;
+    font-weight: 600
+}
+
+.card p {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #8b8b99;
+}
+
+.fresh_food_contaner2 {
+    text-align: center;
+    width: 100%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.heading>p {
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+
+}
+
+.heading h1 {
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.dec {
+    max-width: 700px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 auto;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin-bottom: 55px;
+
+}
+
+.main_card2 {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card2 {
+    width: calc(25% - 32px);
+    text-align: center;
+    background-color: #f5f6fb;
+    padding: 40px 30px;
+    margin: 16px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    transition: box-shadow 0.3s;
+}
+
+.card2 img {
+    width: 80px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+
+}
+
+.dp_dec {
+    font-size: 14px;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    margin: 0;
+}
+
+.dp_name {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+
+.name_ocp {
+    color: #8b8b99;
+    font-size: 12px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+.follow_main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.follow {
+    width: 67%;
+    display: inline-block;
+    margin: 0;
+}
+
+.follow img {
+    width: 100%;
+}
+
+.suscribe_main {
+    width: 33%;
+    margin: 0;
+    display: inline-block;
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png);
+    background-position: left;
+    background-size: cover;
+    text-align: center;
+}
+
+.follow_stat {
+    margin: 115px
+}
+
+.follow_title {
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0 0 8px;
+}
+
+.follow_dec {
+    color: #8b8b99;
+    font-size: 16px;
+    letter-spacing: 0.5;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.follow_textbox {
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 500;
+    background-color: white;
+    padding: 12px;
+    color: #8b8b99;
+    font-size: 16px;
+    margin-top: 60px;
+    display: block;
+}
+
+.follow_button {
+    background-color: #f69dad;
+    padding: 16px 42px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+
+.prifile_info {
+    width: 100%;
+    background-color: #f6fcfa;
+}
+
+.profile_contaner {
+    width: 100%;
+    max-width: 1140px;
+    padding: 100px 0;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.profile_wrap {
+    width: calc(25% - 128px);
+    padding: 0 64px;
+}
+
+.profile_wrap h3 {
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.profile_wrap p {
+    color: #57e3b5;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    margin: 0;
+}
+
+#video_section {
+    display: block;
+}
+
+#video_section div {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#video_section h3 {
+    color: #8b8b99;
+    font-size: 44px;
+    font-weight: 400;
+}
+
+#line_separator {
+    width: 96px;
+    display: inline-block;
+    height: 1px;
+    background-color: #e4b476;
+    margin-bottom: 36px;
+}
+
+#video_section iframe {
+    width: 100%;
+    height: 425px;
+}
+
+.address_wrap {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.address {
+    width: 60%;
+}
+
+.green_heading {
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+
+.address_heading {
+    font-size: 44px;
+    margin: 0;
+}
+
+.address_dec {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+}
+
+.address_subheading {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 32px;
+}
+
+.address_line {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    margin: 0;
+}
+
+.touch {
+    width: 40%;
+}
+
+.input-box {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    color: #8b8b99;
+    border-radius: 6px;
+    border: 1px solid #e5e6ec;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.button {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 9px 34px;
+    border: 0;
+    border-radius: 4px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+#btn-submit {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #232323;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+@media(max-width: 500px) {
+    .menu {
+        display: none;
+    }
+
+    .sec_parts {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card2 {
+        width: 100%;
+    }
+
+    .follow {
+        width: 100%;
+    }
+
+    .suscribe_main {
+        width: 100%;
+    }
+
+    .profile_wrap {
+        width: 100%;
+        margin: 40px auto;
+    }
+
+    .address {
+        width: 100%;
+    }
+
+    .touch {
+        width: 100%;
+        margin: 100px auto;
+    }
+}
+
+@media(min-width: 500px) {
+    .sec_parts {
+        width: calc(50% - 96px);
+    }
+
+    .card {
+        width: calc(50% - 48px);
+    }
+
+    .card2 {
+        width: 50%;
+        margin: 16px auto;
+    }
+
+    .follow {
+        width: 100%;
+    }
+
+    .suscribe_main {
+        width: 100%;
+    }
+
+    .profile_wrap {
+        width: calc(50% - 128px);
+        margin: 40px auto;
+    }
+
+    .address {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .touch {
+        width: 100%;
+    }
+}
+
+
+@media(min-width: 992px) {
+    .sec_parts {
+        width: calc(25% - 96px);
+    }
+
+    .card {
+        width: calc(25% - 48px);
+    }
+
+    .card2 {
+        width: calc(25% - 32px);
+        margin: 16px auto;
+    }
+
+    .follow {
+        width: 60%;
+    }
+
+    .suscribe_main {
+        width: 40%;
+    }
+
+    .profile_wrap {
+        width: calc(25% - 128px);
+        margin: 40px auto;
+    }
+
+    .address {
+        width: 50%;
+        margin-bottom: 100px;
+    }
+
+    .touch {
+        width: 50%;
+    }
+}
